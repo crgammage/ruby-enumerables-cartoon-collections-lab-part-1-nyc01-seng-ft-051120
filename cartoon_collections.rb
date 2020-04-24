@@ -1,7 +1,9 @@
 def greet_characters(array)
   i = 0
-  array.each |character| do
+  while i < array.length do array.each |character|
     puts "Hello #{characters}"
+  end
+end
   end
 
 end
