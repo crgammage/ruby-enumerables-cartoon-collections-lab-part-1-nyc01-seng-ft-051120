@@ -15,5 +15,3 @@ def list_dwarves(array)
   end
   dwarves
 end
-end
-end
