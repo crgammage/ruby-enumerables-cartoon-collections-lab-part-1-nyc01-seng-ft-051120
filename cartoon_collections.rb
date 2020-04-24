@@ -4,7 +4,7 @@ def greet_characters(array)
     puts "Hello #{characters}"
   end
 end
-  end
+end
 
 end
 
