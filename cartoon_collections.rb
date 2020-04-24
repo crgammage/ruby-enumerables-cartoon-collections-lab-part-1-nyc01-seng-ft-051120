@@ -13,6 +13,4 @@ def list_dwarves(array)
   dwarves[dwarf] = index
   puts "#{index}. dwarves[dwarf]"
 }
-
-  end
 end
