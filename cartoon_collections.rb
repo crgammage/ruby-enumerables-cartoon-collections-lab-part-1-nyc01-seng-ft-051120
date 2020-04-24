@@ -12,7 +12,7 @@ def list_dwarves(array)
   %W(array).each_with_index { |dwarf, index|
   dwarves[dwarf] = index
 }
-    dwarves
   end
+  dwarves
 end
 end
