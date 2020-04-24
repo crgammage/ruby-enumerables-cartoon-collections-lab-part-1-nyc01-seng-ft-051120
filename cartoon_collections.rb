@@ -11,6 +11,6 @@ def list_dwarves(array)
   dwarves = Hash.new
   %W(array).each_with_index { |dwarf, index|
   dwarves[dwarf] = index
-  puts "#{index}. dwarves[dwarf]"
+  puts "#{index}. #{dwarves[dwarf]}"
 }
 end
