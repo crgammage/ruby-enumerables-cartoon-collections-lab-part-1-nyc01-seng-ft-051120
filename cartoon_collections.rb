@@ -10,7 +10,7 @@ end
 def list_dwarves(array)
   dwarves = {}
   %W(array).each_with_index {|dwarf, index|
-  dwarves}
+  dwarves[dwarf]}
     puts indexdwarf
   end
 end
