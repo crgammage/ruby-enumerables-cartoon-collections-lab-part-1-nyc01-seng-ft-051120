@@ -9,6 +9,6 @@ end
 
 def list_dwarves(array)
   %W(array).each_with_index { |dwarf, index|
-  puts "#{index}. #{array[dwarf]}"
+  puts "#{index}. #{array[index]}"
 }
 end
