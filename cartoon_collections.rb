@@ -15,4 +15,5 @@ def list_dwarves(array)
   i = 1
   while i < dwarves.length
     puts "#{i}. dwarves[dwarf]"
+  end
 end
