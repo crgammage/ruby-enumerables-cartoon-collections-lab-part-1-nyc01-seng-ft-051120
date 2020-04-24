@@ -1,6 +1,7 @@
 def greet_characters(array)
   i = 0
-  if i < array.length array.each do |character|
+  if i < array.length do
+    array.each do |character|
     puts "Hello #{character}!"
   end
 end
